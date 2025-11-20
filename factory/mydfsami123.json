@@ -1,0 +1,9 @@
+{
+	"name": "mydfsami123",
+	"location": "westus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1ed1a959-67ce-4249-9919-6ffd15ba94dd",
+		"tenantId": "f958e84a-92b8-439f-a62d-4f45996b6d07"
+	}
+}
