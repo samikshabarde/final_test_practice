@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "mydfsami123"
+		},
+		"AzureSQLDatabase_password": {
+			"value": ""
+		},
+		"NormalDatalake_accountKey": {
+			"value": ""
+		},
+		"synapsedatalake_accountKey": {
+			"value": ""
+		},
+		"AzureSQLDatabase_properties_typeProperties_server": {
+			"value": "samiserver123.database.windows.net"
+		},
+		"AzureSQLDatabase_properties_typeProperties_database": {
+			"value": "dbnycpayroll"
+		},
+		"AzureSQLDatabase_properties_typeProperties_userName": {
+			"value": "adminlogin123"
+		},
+		"NormalDatalake_properties_typeProperties_url": {
+			"value": "https://samistorage123.dfs.core.windows.net/"
+		},
+		"synapsedatalake_properties_typeProperties_url": {
+			"value": "https://synapsedatalake123.dfs.core.windows.net/"
+		}
+	}
+}
